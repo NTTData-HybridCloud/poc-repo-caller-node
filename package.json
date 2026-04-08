@@ -1,0 +1,12 @@
+{
+  "name": "poc-a-node",
+  "version": "1.0.0",
+  "description": "PoC A - Node.js application repository",
+  "scripts": {
+    "build": "echo '[MOCK] build ok'",
+    "test": "echo '[MOCK] tests ok'"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
