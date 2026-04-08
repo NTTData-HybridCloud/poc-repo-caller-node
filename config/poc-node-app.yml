@@ -1,0 +1,4 @@
+# Configuration overrides for poc-node-app
+node_version: "20"
+run_tests: true
+sonar_enabled: true
