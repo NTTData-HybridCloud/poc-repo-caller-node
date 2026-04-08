@@ -17,4 +17,5 @@ jobs:
     uses: NTTData-HybridCloud/poc-central-pipelines/.github/workflows/node-ci.yml@main
     with:
       project-name: poc-node-app
+      config-file: config/poc-node-app.yml
     secrets: inherit
