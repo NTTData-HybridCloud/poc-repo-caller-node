@@ -1,26 +1,15 @@
-# ============================================================
 # APP REPO CI - poc-a-node
 # Calls the central reusable workflow in poc-central-pipelines.
-# This file is the entire CI configuration for this app repo.
-# ============================================================
 
 name: CI
 
 on:
   push:
     branches:
-      - master
       - main
-      - develop
-      - 'release/**'
-      - 'feature/**'
-    tags-ignore:
-      - '**'
   pull_request:
     branches:
-      - master
       - main
-      - develop
 
 jobs:
   ci:
