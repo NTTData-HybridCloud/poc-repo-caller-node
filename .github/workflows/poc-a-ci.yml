@@ -1,7 +1,7 @@
 # APP REPO CI - poc-a-node
 # Calls the central reusable workflow in poc-central-pipelines.
 
-name: CI
+name: CI - PoC A
 
 on:
   push:
@@ -14,8 +14,8 @@ on:
 jobs:
   ci:
     name: CI
-    uses: NTTData-HybridCloud/poc-central-pipelines/.github/workflows/node-ci.yml@main
+    uses: NTTData-HybridCloud/poc-central-pipelines/.github/workflows/poca-node-ci.yml@main
     with:
-      project-name: poc-node-app
-      config-file: config/poc-node-app.yml
+      project-name: poc-a-node-app
+      config-file: config/poc-a-node-app.yml
     secrets: inherit

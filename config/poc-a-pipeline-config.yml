@@ -1,4 +1,4 @@
-# Configuration overrides for poc-node-app
+# Configuration overrides for poc-a-node-app
 node_version: "24"
 run_tests: true
 sonar_enabled: true
