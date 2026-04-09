@@ -14,7 +14,7 @@ on:
 jobs:
   ci:
     name: CI
-    uses: NTTData-HybridCloud/poc-central-pipelines/.github/workflows/poca-node-ci.yml@main
+    uses: NTTData-HybridCloud/poc-central-pipelines/.github/workflows/poc-a-node-ci.yml@main
     with:
       project-name: poc-a-node-app
       config-file: config/poc-a-node-app.yml
