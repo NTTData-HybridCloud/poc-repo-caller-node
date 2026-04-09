@@ -1,0 +1,6 @@
+# PoC B - Node Configuration
+technology: node
+project_name: poc-b-node-app
+node_version: "24"
+run_tests: true
+sonar_enabled: true

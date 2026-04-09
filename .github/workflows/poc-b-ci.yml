@@ -1,0 +1,22 @@
+# ============================================================
+# PoC B - Caller Workflow (Node)
+# Calls centralized entrypoint which auto-detects technology
+# ============================================================
+
+name: CI - PoC B
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  call-central-pipeline:
+    name: Call Central Pipeline
+    uses: NTTData-HybridCloud/poc-central-pipelines/.github/workflows/poc-b-entrypoint.yml@main
+    with:
+      config-file: config/poc-b-pipeline-config.yml
+    secrets: inherit
